@@ -20,15 +20,6 @@ export function AboutMe() {
         capabilities in the coding domain.
       </p>
 
-      <h1 className='h1'>Resume</h1>
-      <p>Can embed/attach to website and/or screenshot of</p>
-      <h1 className='h1'>Projects</h1>
-      <h1 className='h1'>Skills</h1>
-      <div>
-        <p>Frontend Box</p>
-        <p>Backend Box</p>
-      </div>
-      <h1 className='h1'>Contact Me</h1>
     </div>
   );
 }
