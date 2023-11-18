@@ -1,0 +1,13 @@
+.h1{
+    text-align: center;
+    text-decoration:underline;
+    text-underline-offset: 5px;
+}
+
+.about-container {
+    position: relative;
+    height: 100%;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+}
