@@ -1,23 +1,41 @@
-import Card from 'react-bootstrap/Card';
 import "./Projects.css";
-
 
 export function Projects() {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Card.Link href="#">Card Link</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
-      </Card.Body>
-    </Card>
+    <div className="projects-container" id="projects">
+      <h1>Projects</h1>
 
+      <div className="cards-container">
+        <div className="card-container">
+          <p>Calendar Api</p>
+          <img
+            src=".\src\media\Screenshot 2023-11-20 011411.jpg"
+            alt="Api website"
+            className="card-img"
+          />
+          <p>
+            Using a Calendar API involves integrating a calendar service into
+            your application or system, allowing you to manipulate and interact
+            with calendar data programmatically. This API provides a set of
+            endpoints and methods that enable developers to perform various
+            operations such as creating events, retrieving event details,
+            updating event information, and managing calendars.
+          </p>
+          <a className="proj-button" href="https://protected-taiga-58244-3710fb729053.herokuapp.com/" target="_blank" rel="noreferrer">Show more</a>
+        </div>
+        <div className="card-container">
+          <p>Card Title</p>
+          <p>Card Picture</p>
+          <p>Card Description</p>
+          <a className="proj-button">Show more</a>
+        </div>
+        <div className="card-container">
+          <p>Card Title</p>
+          <p>Card Picture</p>
+          <p>Card Description</p>
+          <a className="proj-button">Show more</a>
+        </div>
+      </div>
+    </div>
   );
 }
-
-

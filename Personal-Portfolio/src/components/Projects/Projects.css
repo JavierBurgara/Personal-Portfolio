@@ -1,0 +1,53 @@
+.projects-container {
+    display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+width: 95.4vw;
+color: white;
+font-size: 22px;
+}
+
+.cards-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+
+.card-container {
+    border: 3px solid silver;
+    height: 1100px;
+    width: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
+    font-size: 30px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+}
+
+.proj-button {
+    padding: 3%;
+    font-size: 22px;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px silver solid;
+}
+
+.proj-button:visited {
+    color: white;
+}
+
+.proj-button:hover {
+    cursor: pointer;
+    background-color: red;
+}

@@ -1,8 +1,20 @@
 import "./ContactMe.css";
+import { useState } from "react";
+
 
 export function ContactMe() {
+    const [name, setName] = useState("")
+    const [message, setMessage] = useState("")
+
+
+    function handleSubmit(e){
+        e.preventDefault()
+        window.location.href = `mailto:Javierburgara150@yahoo.com?subject=${name}: submitted from contact form&body=${message}`; 
+    }
+
   return (
-    <form className="wow pulse" action="https://yahoo.com/javierburgara150@yahoo.com" method="POST">
+    <form className="form-container" onSubmit={handleSubmit} method="POST" id="contact-me">
+        <h1 className="h1">Contact Me</h1>
     <div className="form-group">
         <div className="row">
             <div className="col-12 col-sm-12 col-md-6 mx-auto">
@@ -12,6 +24,9 @@ export function ContactMe() {
                     className="form-control form-control-lg"
                     id="name"
                     placeholder="Name"
+                    required
+                   value={name}
+                   onChange={(e)=> setName(e.target.value)}
                 />
             </div>
         </div>
@@ -25,6 +40,7 @@ export function ContactMe() {
                     className="form-control form-control-lg"
                     id="exampleFormControlInput1"
                     placeholder="Your email"
+                    required
                 />
             </div>
         </div>
@@ -38,6 +54,9 @@ export function ContactMe() {
                     id="exampleFormControlTextarea1"
                     rows="3"
                     placeholder="Write your message..."
+                    required
+                    value={message}
+                    onChange={(e)=> setMessage(e.target.value)}
                 />
             </div>
         </div>

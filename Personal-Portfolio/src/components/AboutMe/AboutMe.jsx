@@ -2,9 +2,9 @@ import './AboutMe.css'
 
 export function AboutMe() {
   return (
-    <div className='about-container'>
+    <div className='about-container' id="about-me">
       <h1 className='h1'>About Me</h1>
-      <p>
+      <p className="text-block">
         I have a strong passion for both gaming and basketball. Currently, I am
         actively engaged in the realm of competitive online gaming, particularly
         within the titles of League of Legends and Apex Legends. Moreover,
@@ -19,7 +19,6 @@ export function AboutMe() {
         strategic thinking in my problem-solving endeavors, thereby enhancing my
         capabilities in the coding domain.
       </p>
-
     </div>
   );
 }
