@@ -1,31 +1,50 @@
-.header{
-    position:fixed;
-    top: 0px;
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-   color: rgb(255, 255, 255);
-   border-bottom: 3px solid silver;
-   background-color: rgb(0, 0, 0); 
-   z-index: 2;
-   padding: 0 3%;
-   font-size: 36px;
+.header {
+  position: fixed;
+  top: 0px;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  color: rgb(255, 255, 255);
+  border-bottom: 3px solid silver;
+  background-color: rgb(0, 0, 0);
+  z-index: 2;
+  padding: 0 3%;
+  font-size: 36px;
+  margin-bottom: 25px;
 }
 
 .nav-menu {
-    display: flex;
-    width: 30%;
-    justify-content: space-evenly;
-    color:white;
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  color: white;
 }
 
 .nav-menu > a:visited {
-    color: white;
+  color: white;
 }
 
 .nav-menu > a:hover {
-   color: red;
+  color: red;
 }
+
+/* Styles for screens with a minimum width of 1025 pixels */
+@media (min-width: 831px) and (max-width: 1480px) {
+  .header {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width:588px) and (max-width: 830px) {
+  .header {
+    font-size: 14px !important;
+  }
+}
+@media  (max-width: 587px) {
+    .header {
+      font-size: 12px !important;
+    }
+  }

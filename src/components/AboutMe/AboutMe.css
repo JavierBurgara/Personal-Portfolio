@@ -1,25 +1,41 @@
-.h1{
-    text-decoration:underline;
-    text-underline-offset: 5px;
-    font-size: 42px;
-    color: white;
+.h1 {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-size: 42px;
+  color: white;
 }
 
 .about-container {
-    position: relative;
-    height: 40vw;
-    display:flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 95.4vw;
-    
-
+  position: relative;
+  height: 40vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 95.4vw;
+  margin-top: 25px;
 }
 
 .text-block {
-    width: 900px;
-    font-size: 30px;
-    color: white;
-    text-decoration: underline;
+  width: 900px;
+  font-size: 30px;
+  color: white;
+  text-decoration: underline;
 }
+
+@media (min-width: 831px) and (max-width: 1480px) {
+  .text-block {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width:588px) and (max-width: 830px) {
+  .text-block {
+    font-size: 14px !important;
+  }
+}
+@media  (max-width: 587px) {
+    .text-block {
+      font-size: 14px !important;
+    }
+  }

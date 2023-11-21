@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&display=swap');
+
 
 body {
   margin: 0;
@@ -6,8 +6,7 @@ body {
   place-items: center;
   min-width: 100vw;
   min-height: 100vh;
-  font-family: 'Bungee Spice', sans-serif;
-  font-family: 'Pacifico', cursive;
+  font-family: sans-serif;
 }
 
 
@@ -20,4 +19,9 @@ html {
   box-sizing: border-box;
   margin:0;
   padding:0;
+}
+
+/* Styles for screens with a minimum width of 1025 pixels */
+@media (min-width: 1025px) {
+
 }

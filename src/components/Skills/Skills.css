@@ -21,7 +21,7 @@
 .skill-lists {
     display: flex;
     width: 90%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
     position: relative;
     font-size: 28px;
@@ -32,3 +32,21 @@
     font-size: 40px;
     text-decoration: underline;
 }
+
+@media (min-width: 831px) and (max-width: 1480px) {
+    .skill-container, .skills-list-header {
+      font-size: 20px !important;
+
+    }
+  }
+  
+  @media (min-width:588px) and (max-width: 830px) {
+    .skill-container, .skills-list-header {
+      font-size: 14px !important;
+    }
+  }
+  @media  (max-width: 587px) {
+      .skill-lists, .skills-list-header {
+        font-size: 12px !important;
+      }
+    }
