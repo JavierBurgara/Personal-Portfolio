@@ -9,7 +9,7 @@ export function Projects() {
         <div className="card-container">
           <p>Calendar Api</p>
           <img
-            src=".\src\media\Screenshot 2023-11-20 011411.jpg"
+            src="public\media\Javier Burgara Resume.pdf"
             alt="Api website"
             className="card-img"
           />
@@ -36,7 +36,7 @@ export function Projects() {
         >
           <p>Trails&Weather</p>
           <img
-            src=".\src\media\Screenshot 2023-11-20 182210.jpg"
+            src="public/media/Screenshot 2023-11-20 182210.jpg"
             alt="Api website"
             className="card-img"
           />
