@@ -14,6 +14,9 @@
   padding: 0 3%;
   font-size: 36px;
   margin-bottom: 25px;
+  font-family: "Bungee Spice", sans-serif;
+  font-family: "Lobster", sans-serif;
+  font-family: "Pacifico", cursive;
 }
 
 .nav-menu {
@@ -38,13 +41,13 @@
   }
 }
 
-@media (min-width:588px) and (max-width: 830px) {
+@media (min-width: 588px) and (max-width: 830px) {
   .header {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 }
-@media  (max-width: 587px) {
-    .header {
-      font-size: 12px !important;
-    }
+@media (max-width: 587px) {
+  .header {
+    font-size: 12px !important;
   }
+}

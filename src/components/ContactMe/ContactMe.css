@@ -2,54 +2,78 @@
 
 /* Style for form container */
 .form-container {
-    height: 600px;
-    display: flex;
-    width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #111010;
-    border-radius: 5px;
-    background-color: #111010;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    margin-bottom: 60px;
+  height: 600px;
+  display: flex;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #111010;
+  border-radius: 5px;
+  background-color: #111010;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+/* Style for form inputs and labels */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ee0a0a;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: rgb(116, 114, 114);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Bungee Spice", sans-serif;
+  font-family: "Lobster", sans-serif;
+  font-family: "Pacifico", cursive;
+}
+
+button[type="submit"]:hover {
+  background-color: #f50808;
+}
+
+@media (min-width: 831px) and (max-width: 1480px) {
+  .form-container {
+    font-size: 20px !important;
+    top: 300px;
   }
-  
-  /* Style for form inputs and labels */
-  .form-group {
-    margin-bottom: 15px;
+}
+
+@media (min-width: 588px) and (max-width: 830px) {
+  .form-container {
+    font-size: 14px !important;
+    top: 530px;
+    margin-bottom: 100px;
   }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
+}
+@media (max-width: 587px) {
+  .form-container {
+    font-size: 12px !important;
+    top: 400px;
   }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ee0a0a;
-  }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  /* Style for submit button */
-  button[type="submit"] {
-    padding: 10px 15px;
-    background-color: rgb(116, 114, 114);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #f50808;
-  }
-  
+}

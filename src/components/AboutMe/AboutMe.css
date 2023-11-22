@@ -17,25 +17,31 @@
 }
 
 .text-block {
-  width: 900px;
+  max-width: 900px;
   font-size: 30px;
   color: white;
   text-decoration: underline;
 }
 
-@media (min-width: 831px) and (max-width: 1480px) {
+@media (min-width: 993px) and (max-width: 1480px) {
   .text-block {
     font-size: 20px !important;
   }
 }
 
-@media (min-width:588px) and (max-width: 830px) {
+@media (min-width:588px) and (max-width: 992px) {
   .text-block {
     font-size: 14px !important;
+  }
+  .about-container{
+    top: 35px !important;
   }
 }
 @media  (max-width: 587px) {
     .text-block {
       font-size: 14px !important;
+    }
+    .about-container{
+      top: 125px !important;
     }
   }

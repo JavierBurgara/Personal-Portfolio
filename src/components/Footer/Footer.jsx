@@ -8,7 +8,6 @@ export function Footer() {
             <ul className="socials">
                 <SocialIcon url="https://github.com/JavierBurgara?tab=repositories" />
                 <SocialIcon url="https://www.linkedin.com/in/javier-burgara/"/>
-         
             </ul>
         </footer>
     )

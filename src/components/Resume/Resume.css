@@ -6,9 +6,11 @@ align-items: center;
 gap: 20px;
 height: 40vw;
 width: 95.4vw;
+position: relative;
 }
 .button-grp{
-    width: 500px;
+    max-width: 500px;
+    min-width: 400px;
     display: flex;
     justify-content: space-evenly;
     
@@ -36,3 +38,23 @@ width: 95.4vw;
     cursor: pointer;
 }
 
+@media (min-width: 993px) and (max-width: 1480px) {
+    .resume-container {
+      font-size: 20px !important;
+      
+    }
+  }
+  
+  @media (min-width:588px) and (max-width: 992px) {
+    .resume-container{
+      top: 35px !important;
+      font-size: 14px !important;
+    }
+  }
+  @media  (max-width: 587px) {
+      .resume-container{
+        top: 240px !important;
+        font-size: 14px !important;
+
+      }
+    }

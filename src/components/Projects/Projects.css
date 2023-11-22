@@ -1,70 +1,74 @@
 .projects-container {
-    display: flex;
-flex-flow: column nowrap;
-justify-content: center;
-align-items: center;
-width: 95.4vw;
-color: white;
-font-size: 22px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 95.4vw;
+  color: white;
+  font-size: 22px;
+  position: relative;
 }
 
-.cards-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    
+.cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
-
 
 .card-container {
-    border: 3px solid silver;
-    height: 1100px;
-    width: 500px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 1%;
-    font-size: 30px;
+  border: 3px solid silver;
+  max-height: 1100px;
+  min-height: 650px;
+  width: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 1%;
+  font-size: 30px;
 }
 
 .card-img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .proj-button {
-    padding: 3%;
-    font-size: 22px;
-    border-radius: 50px;
-    background-color: black;
-    font-weight: 700;
-    text-decoration: none;
-    border: 2px silver solid;
+  padding: 3%;
+  font-size: 22px;
+  border-radius: 50px;
+  background-color: black;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px silver solid;
+  text-align: center;
 }
 
 .proj-button:visited {
-    color: white;
+  color: white;
 }
 
 .proj-button:hover {
-    cursor: pointer;
-    background-color: red;
+  cursor: pointer;
+  background-color: red;
 }
 @media (min-width: 831px) and (max-width: 1480px) {
-    .card-container {
-      font-size: 20px !important;
-    }
+  .card-container {
+    font-size: 20px !important;
   }
-  
-  @media (min-width:588px) and (max-width: 830px) {
-    .card-container {
-      font-size: 14px !important;
-      
-    }
+}
+
+@media (min-width: 588px) and (max-width: 830px) {
+  .card-container {
+    font-size: 14px !important;
   }
-  @media  (max-width: 587px) {
-      .card-container {
-        font-size: 12px !important;
-      }
-    }
+}
+@media (max-width: 587px) {
+  .card-container {
+    font-size: 12px !important;
+  }
+
+  .projects-container {
+    top: 240px;
+  }
+}
