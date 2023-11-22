@@ -54,4 +54,7 @@
   .header {
     font-size: 10px !important;
   }
+  .nav-menu{
+    width: 70%;
+  }
 }
