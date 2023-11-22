@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0.976);
   border-bottom: 3px solid silver;
   background-color: rgb(0, 0, 0);
   z-index: 2;
@@ -23,11 +23,11 @@
   display: flex;
   width: 50%;
   justify-content: space-evenly;
-  color: white;
+  color: white !important;
 }
 
 .nav-menu > a:visited {
-  color: white;
+  color: white !important;
 }
 
 .nav-menu > a:hover {
