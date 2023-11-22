@@ -26,6 +26,10 @@
   color: white !important;
 }
 
+.nav-menu >a{
+ color: white;
+}
+
 .nav-menu > a:visited {
   color: white !important;
 }
