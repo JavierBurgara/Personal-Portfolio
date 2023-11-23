@@ -42,6 +42,7 @@
   text-decoration: none;
   border: 2px silver solid;
   text-align: center;
+  color: white;
 }
 
 .proj-button:visited {
