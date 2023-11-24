@@ -32,8 +32,7 @@ export function Projects() {
         </div>
         <div
           className="card-container"
-          href="https://julie0327.github.io/trails_weather/"
-        >
+>
           <p>Trails&Weather</p>
           <img
             src="/media/Screenshot 2023-11-20 182210.jpg"
@@ -45,15 +44,18 @@ export function Projects() {
             different cities in the United States. We use the OpenWeather API to
             retrieve Data from its weather to input what kind of weather
             conditions are going to happen in the next 5 days. This helps the
-            users plan their next oncomings days to aviod any weather conditions
+            users plan their next oncomings days to avoid any weather conditions
             that could effect their plans those next 5 days.
           </p>
-          <a className="proj-button">Show more</a>
+          <a className="proj-button"
+          href="https://julie0327.github.io/trails_weather/"
+          target="_blank"
+          rel="noreferrer">Show more</a>
         </div>
         <div className="card-container">
-          <p>Card Title</p>
-          <p>Card Picture</p>
-          <p>Card Description</p>
+          <p>Project 3</p>
+          <p>Project 3</p>
+          <p>Project 3</p>
           <a className="proj-button">Show more</a>
         </div>
       </div>
