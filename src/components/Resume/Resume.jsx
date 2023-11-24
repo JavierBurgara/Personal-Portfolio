@@ -21,7 +21,7 @@ export function Resume() {
           <button>
             <a
               className="resume-download"
-              href="./src/media/Javier Burgara Resume (6).pdf"
+              href="public\media\Javier Burgara Resume (6).pdf"
               download
             >
               Download
@@ -48,14 +48,16 @@ export function Resume() {
         <button onClick={handleChange}>Reset</button>
 
         <object
-          data="./src/media/Javier Burgara Resume (6).pdf"
+          data="public\media\Javier Burgara Resume (6).pdf"
           type="application/pdf"
           width="50%"
           height="750px"
         >
           <p>
             Unable to display PDF file.
-            <a href="./src/media/public\media\Javier Burgara Resume (6).pdf">Download</a>{" "}
+            <a href="./src/media/public\media\Javier Burgara Resume (6).pdf">
+              Download
+            </a>{" "}
             instead.
           </p>
         </object>
