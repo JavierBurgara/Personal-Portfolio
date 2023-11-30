@@ -30,9 +30,7 @@ export function Projects() {
             Show more
           </a>
         </div>
-        <div
-          className="card-container"
->
+        <div className="card-container">
           <p>Trails&Weather</p>
           <img
             src="/media/Screenshot 2023-11-20 182210.jpg"
@@ -47,16 +45,33 @@ export function Projects() {
             users plan their next oncomings days to avoid any weather conditions
             that could effect their plans those next 5 days.
           </p>
-          <a className="proj-button"
-          href="https://julie0327.github.io/trails_weather/"
-          target="_blank"
-          rel="noreferrer">Show more</a>
+          <a
+            className="proj-button"
+            href="https://julie0327.github.io/trails_weather/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Show more
+          </a>
         </div>
         <div className="card-container">
-          <p>Project 3</p>
-          <p>Project 3</p>
-          <p>Project 3</p>
-          <a className="proj-button">Show more</a>
+          <p>Tournament Hub</p>
+          <img src="/media/tournament.jpg" alt="Tournament Hub" className="card-img" />
+          <p>
+            Tourn Hub is your one stop shop to meet & connect with likeminded
+            gaming enthusiasts. Once the user has signed up & joined the site,
+            they will be able to connect with other users who are looking to
+            expand their gaming network. Search our large database for existing
+            games & see the stats on other users before making your final move!
+          </p>
+          <a
+            className="proj-button"
+            href=" https://game-tourney-hub-8015c3047dd6.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Show more
+          </a>
         </div>
       </div>
     </div>
